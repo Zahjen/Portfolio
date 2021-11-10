@@ -428,6 +428,367 @@ nav .nav-links .part-link-page:hover {
     transform: rotateZ(45deg) scale(1.5);
 }
 
+/* -------------------------------- Mes compétences -------------------------------- */
+
+.container-texte-competence-home {
+    text-align: justify;
+    /*max-width: 1100px;*/
+    margin-bottom: 30px;
+}
+
+.container-competence-bar-date .competence-date > .icon-caret-comp {
+    background-color: var(--golden-pink);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    width: 14px;
+    height: 7px;
+    margin: 5px 0;
+}
+
+.container-competence-bar-date {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    grid-row-gap: 5px;
+    margin-top: 30px;
+    width: 100%;  /*Pose pb au niveau de rezise de la page, voir pour modif ça*/
+}
+
+.competence-underline {
+    border-bottom: solid var(--golden-pink) 1px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.competence-latex {
+    grid-area: 1 / 2 / 2 / 8; 
+}
+
+.competence-html-css {
+    grid-area: 2 / 3 / 3 / 8; 
+}
+
+.competence-js-sass {
+    grid-area: 3 / 4 / 4 / 8; 
+}
+
+.competence-flutter {
+    grid-area: 4 / 5 / 5 / 8; 
+}
+
+.competence-python {
+    grid-area: 5 / 6 / 6 / 8; 
+}
+
+.competence-sql {
+    grid-area: 6 / 7 / 7 / 8; 
+}
+
+.competence-date-latex {
+    grid-area: 2 / 1 / 3 / 3; 
+}
+
+.competence-date-html-css {
+    grid-area: 3 / 2 / 4 / 4; 
+}
+
+.competence-date-js-sass {
+    grid-area: 4 / 3 / 5 / 5; 
+}
+
+.competence-date-flutter {
+    grid-area: 5 / 4 / 6 / 6; 
+}
+
+.competence-date-python {
+    grid-area: 6 / 5 / 7 / 7; 
+}
+
+.competence-date-sql {
+    grid-area: 7 / 6 / 8 / 8; 
+}
+
+.container-competence-bar-date .competence-date {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/* -------------------------------- Animation relative aux langages qui tournent ---------------------------------------------- */
+
+.container-sphere {
+    /* centrer la sphere */
+    min-height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 170px 0;
+}
+
+.sphere-centre {
+    /* position absolute "permet" de centrer la sphere car on utilise le display flex sur container-sphere */
+    position: absolute;
+    height: var(--sphere-centre-competences-size);
+    width: var(--sphere-centre-competences-size);
+    border-radius: 50%;
+    background-color: var(--golden-pink);
+    -webkit-animation: blur-change 1.7s infinite alternate ease-in-out;
+            animation: blur-change 1.7s infinite alternate ease-in-out;
+}
+
+.wrapper-sphere {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+
+    transform-style: preserve-3d;
+    perspective: 1000px;
+}
+
+.sphere {
+    position: relative;
+    width: var(--largeur-sphere-langages-competences);
+    height: var(--hauteur-sphere-langages-competences);
+    grid-area: 1 / 1 / 2 / 2;
+    font-size: 20px;
+    transform-style: preserve-3d;
+}
+
+.mobile {
+    -webkit-animation: spin-0 var(--temps-sphere) linear infinite;
+            animation: spin-0 var(--temps-sphere) linear infinite;
+}
+
+.web {   
+    -webkit-animation: spin-90 var(--temps-sphere) linear infinite;   
+            animation: spin-90 var(--temps-sphere) linear infinite;
+}
+
+.python-github {  
+    -webkit-animation: spin-45 var(--temps-sphere) linear infinite;  
+            animation: spin-45 var(--temps-sphere) linear infinite;
+}
+
+.inkscape-latex {  
+    -webkit-animation: spin-135 var(--temps-sphere) linear infinite;  
+            animation: spin-135 var(--temps-sphere) linear infinite;
+}
+
+.mobile .dart, .mobile .firebase {
+    -webkit-animation: spin-0-text var(--temps-sphere) linear infinite, couleur-face-mobile var(--temps-sphere) infinite;
+            animation: spin-0-text var(--temps-sphere) linear infinite, couleur-face-mobile var(--temps-sphere) infinite;
+}
+
+.mobile .firebase {
+    -webkit-animation: spin-0-text var(--temps-sphere) linear infinite, couleur-face-mobile-firebase var(--temps-sphere) infinite;
+            animation: spin-0-text var(--temps-sphere) linear infinite, couleur-face-mobile-firebase var(--temps-sphere) infinite;
+}
+
+.mobile .nosql, .mobile .flutter {
+    -webkit-animation: spin-0-text var(--temps-sphere) linear infinite, couleur-face-mobile-2 var(--temps-sphere) infinite;
+            animation: spin-0-text var(--temps-sphere) linear infinite, couleur-face-mobile-2 var(--temps-sphere) infinite;
+}
+
+.web .html, .web .scss {
+    -webkit-animation: spin-90-text var(--temps-sphere) linear infinite, couleur-face-web var(--temps-sphere) infinite;
+            animation: spin-90-text var(--temps-sphere) linear infinite, couleur-face-web var(--temps-sphere) infinite;
+}
+
+.web .js, .web .sql {
+    -webkit-animation: spin-90-text var(--temps-sphere) linear infinite, couleur-face-web-2 var(--temps-sphere) infinite;
+            animation: spin-90-text var(--temps-sphere) linear infinite, couleur-face-web-2 var(--temps-sphere) infinite;
+}
+
+.python-github .python {
+    -webkit-animation: spin-45-text var(--temps-sphere) linear infinite, couleur-face-python var(--temps-sphere) linear infinite;
+            animation: spin-45-text var(--temps-sphere) linear infinite, couleur-face-python var(--temps-sphere) linear infinite;
+}
+
+.python-github .github {
+    -webkit-animation: spin-45-text var(--temps-sphere) linear infinite, couleur-face-github var(--temps-sphere) linear infinite;
+            animation: spin-45-text var(--temps-sphere) linear infinite, couleur-face-github var(--temps-sphere) linear infinite;
+}
+
+.inkscape-latex .inkscape {
+    -webkit-animation: spin-135-text var(--temps-sphere) linear infinite, couleur-face-inkscape var(--temps-sphere) infinite;
+            animation: spin-135-text var(--temps-sphere) linear infinite, couleur-face-inkscape var(--temps-sphere) infinite;
+}
+
+.inkscape-latex .latex {
+    -webkit-animation: spin-135-text var(--temps-sphere) linear infinite, couleur-face-latex var(--temps-sphere) infinite;
+            animation: spin-135-text var(--temps-sphere) linear infinite, couleur-face-latex var(--temps-sphere) infinite;
+}
+
+.position-sphere {
+    position: absolute;
+}
+
+.dart {
+    top: var(--sphere-position-50-competences);
+    left: var(--sphere-position-50-competences);
+}
+
+.html {
+    top: var(--sphere-position-10-competences);
+    left: var(--sphere-position-50-competences);
+}
+
+.firebase {
+    bottom: var(--sphere-position-50-competences);
+    left: var(--sphere-position-70-competences);
+}
+
+.scss {
+    bottom: var(--sphere-position-10-competences);
+    left: var(--sphere-position-70-competences);
+}
+
+.nosql {
+    top: var(--sphere-position-50-competences);
+    right: var(--sphere-position-70-competences);
+}
+
+.js {
+    top: var(--sphere-position-10-competences);
+    right: var(--sphere-position-70-competences);
+}
+
+.flutter {
+    bottom: var(--sphere-position-50-competences);
+    right: var(--sphere-position-50-competences);
+}
+
+.sql {
+    bottom: var(--sphere-position-10-competences);
+    right: var(--sphere-position-50-competences);
+}
+
+.python, .inkscape {
+    top: calc(var(--hauteur-sphere-langages-competences) / 2 - 15px);
+    left: var(--sphere-position-100-competences);
+}
+
+.github, .latex {
+    top: calc(var(--hauteur-sphere-langages-competences) / 2 - 15px);
+    right: var(--sphere-position-100-competences);
+}
+
+/* -------------------------------- Projets -------------------------------- */
+
+.container-projet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper-projet {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+}
+
+.wrapper-projet > a {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border: 1px solid var(--blanc-casse);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--blanc-casse);
+    text-decoration: none;
+    margin: 10px;
+}
+
+.triangle, .triangle-2 {
+    width: 29.8px;
+    height: 29.8px;
+    transition: transform 0.5s;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: scale(0);
+}
+
+.triangle {
+    transform-origin: top left;
+    -webkit-clip-path: polygon(100% 0, 0 0, 0 100%);
+            clip-path: polygon(100% 0, 0 0, 0 100%);
+}
+
+.triangle-2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform-origin: bottom right;
+    -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%);
+            clip-path: polygon(100% 0, 100% 100%, 0 100%);
+}
+ 
+.wrapper-projet .memo-game { 
+    background-image: url('../images/memo-game.svg');
+}
+.wrapper-projet .nbr-signe {
+    background-image: url('../images/nbr-signe.svg');
+}
+.wrapper-projet .math {
+    background-image: url('../images/math.svg');
+}
+.wrapper-projet .to-do-list { 
+    background-image: url('../images/to-do-list.png');
+}
+.wrapper-projet .app-mob { 
+    background-image: url('../images/app-mob.svg');
+}
+.wrapper-projet .pswd-gen { 
+    background-image: url('../images/pswd-gen.svg');
+}
+
+.wrapper-projet a:hover .triangle, .wrapper-projet a:hover .triangle-2 {
+    transform: scale(10);
+    background-image: url('../images/js-html-css.svg');
+}
+
+.wrapper-projet .math:hover {
+    background-image: url('../images/math-blur.svg');
+}
+
+.wrapper-projet .memo-game:hover {
+    background-image: url('../images/memo-game-blur.svg');
+}
+
+.wrapper-projet .to-do-list:hover {
+    background-image: url('../images/to-do-list-blur.png');
+}
+
+.wrapper-projet .pswd-gen:hover {
+    background-image: url('../images/pswd-gen-blur.svg');
+}
+
+.wrapper-projet .app-mob:hover {
+    background-image: url('../images/app-mob-blur.svg');
+}
+
+.wrapper-projet .nbr-signe:hover {
+    background-image: url('../images/nbr-signe-blur.svg');
+}
+
+.wrapper-projet .math:hover .triangle, .wrapper-projet .math:hover .triangle-2 {
+    background-image: url('../images/js-html-scss.svg');
+}
+
+.wrapper-projet .app-mob:hover .triangle, .wrapper-projet .app-mob:hover .triangle-2 {
+    background-image: url('../images/flutter.svg');
+}
+
+.wrapper-projet .nbr-signe:hover .triangle, .wrapper-projet .nbr-signe:hover .triangle-2 {
+    background-image: url('../images/python.svg');
+}
+
 /* -------------------------------- Media queries -------------------------------- */
 
 
