@@ -1,0 +1,247 @@
+@-webkit-keyframes jumping-waves-letter {
+    0% {
+        transform: translateY(0);
+    }
+    20% {
+        transform: translateY(-10px);
+    }
+    40% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes jumping-waves-letter {
+    0% {
+        transform: translateY(0);
+    }
+    20% {
+        transform: translateY(-10px);
+    }
+    40% {
+        transform: translateY(0);
+    }
+}
+
+@-webkit-keyframes apparition-letter-typing-name {
+    0% {
+        width: 0;
+    }
+    16.67% {
+        width: 8ch;
+    }
+    22% {
+        width: 8ch;
+        border-right: solid;
+    }
+    33.33% {
+        width: 0;
+        border-right: solid;
+    }
+    34% {
+        border-right: none;
+    }
+    50% {
+        width: 0;
+        border-right: none;
+    }
+    66.67% {
+        width: 0;
+    }
+    83.33% {
+        width: 0;
+    }
+    100% {
+        width: 0;
+        border-right: none;
+    }
+}
+
+@keyframes apparition-letter-typing-name {
+    0% {
+        width: 0;
+    }
+    16.67% {
+        width: 8ch;
+    }
+    22% {
+        width: 8ch;
+        border-right: solid;
+    }
+    33.33% {
+        width: 0;
+        border-right: solid;
+    }
+    34% {
+        border-right: none;
+    }
+    50% {
+        width: 0;
+        border-right: none;
+    }
+    66.67% {
+        width: 0;
+    }
+    83.33% {
+        width: 0;
+    }
+    100% {
+        width: 0;
+        border-right: none;
+    }
+}
+
+@-webkit-keyframes apparition-letter-typing-now-1 {
+    0% {
+        width: 0;
+        border-right: none;        
+    }
+    16.67% {
+        width: 0;
+        border-right: none;
+    }
+    33.33% {
+        width: 0;
+    }
+    50% {
+        width: 13ch;
+        border-right: solid;
+    }
+    52% {
+        border-right: none;
+    }
+    66.67% {
+        width: 13ch;
+        border-right: none;
+    }
+    82% {
+        border-right: none;
+    }
+    83.33% {
+        width: 13ch;
+        border-right: solid;
+    }
+    100% {
+        width: 0;
+
+    }
+}
+
+@keyframes apparition-letter-typing-now-1 {
+    0% {
+        width: 0;
+        border-right: none;        
+    }
+    16.67% {
+        width: 0;
+        border-right: none;
+    }
+    33.33% {
+        width: 0;
+    }
+    50% {
+        width: 13ch;
+        border-right: solid;
+    }
+    52% {
+        border-right: none;
+    }
+    66.67% {
+        width: 13ch;
+        border-right: none;
+    }
+    82% {
+        border-right: none;
+    }
+    83.33% {
+        width: 13ch;
+        border-right: solid;
+    }
+    100% {
+        width: 0;
+
+    }
+}
+
+@-webkit-keyframes apparition-letter-typing-now-2 {
+    0% {
+        width: 0;
+        border-right: none;
+    }
+    16.67% {
+        width: 0;
+        border-right: none;
+    }
+    33.33% {
+        width: 0;
+        border-right: none;
+    }
+    50% {
+        width: 0;
+    }
+    66.67% {
+        width: 13ch;
+        border-right: solid;
+    }
+    72% {
+        width: 13ch;
+        border-right: solid;
+    }
+    83.33% {
+        width: 0;
+    }
+    100% {
+        width: 0;
+        border-right: none;
+    }
+}
+
+@keyframes apparition-letter-typing-now-2 {
+    0% {
+        width: 0;
+        border-right: none;
+    }
+    16.67% {
+        width: 0;
+        border-right: none;
+    }
+    33.33% {
+        width: 0;
+        border-right: none;
+    }
+    50% {
+        width: 0;
+    }
+    66.67% {
+        width: 13ch;
+        border-right: solid;
+    }
+    72% {
+        width: 13ch;
+        border-right: solid;
+    }
+    83.33% {
+        width: 0;
+    }
+    100% {
+        width: 0;
+        border-right: none;
+    }
+}
+      
+@-webkit-keyframes bar-typing-animation {
+    0% {
+        border-color: transparent;
+    }
+    50% {
+        border-color: var(--golden-pink);
+    }
+}
+      
+@keyframes bar-typing-animation {
+    0% {
+        border-color: transparent;
+    }
+    50% {
+        border-color: var(--golden-pink);
+    }
+}

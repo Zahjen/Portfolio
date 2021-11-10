@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="25"
+   height="25"
+   viewBox="0 0 6.6145832 6.6145835"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (eb90963e84, 2021-10-02)"
+   sodipodi:docname="linkedin-dark.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     units="px"
+     inkscape:zoom="12.030079"
+     inkscape:cx="22.609994"
+     inkscape:cy="-1.620937"
+     inkscape:window-width="1874"
+     inkscape:window-height="1016"
+     inkscape:window-x="46"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="path870"
+       style="fill:#000019;fill-opacity:1;stroke:none;stroke-width:0.0870251"
+       d="M 0.48887,0 C 0.21894,0 0,0.212277 0,0.473831 v 5.667078 c 0,0.261554 0.21894,0.473674 0.48887,0.473674 h 5.63682 c 0.27002,0 0.48889,-0.212111 0.48889,-0.473752 v -5.667 C 6.61458,0.212277 6.39571,0 6.12569,0 Z m 1.05341,1.093928 c 0.3417,0 0.55201,0.222951 0.55855,0.516082 0,0.286625 -0.21686,0.515983 -0.56518,0.515983 h -8e-5 -0.006 c -0.33532,0 -0.55209,-0.229358 -0.55209,-0.515983 0,-0.293131 0.22331,-0.516082 0.56527,-0.516082 z m 2.94517,1.369796 c 0.65729,0 1.1501,0.4269 1.1501,1.34429 V 5.520557 H 4.63858 V 3.922862 c 0,-0.401571 -0.14466,-0.675443 -0.50608,-0.675443 -0.27604,0 -0.44044,0.184693 -0.51263,0.36314 -0.0264,0.06368 -0.0329,0.153024 -0.0329,0.242204 V 5.520557 H 2.588 c 0,-2.64e-4 0.0131,-2.706561 7e-5,-2.986753 h 0.999 V 2.956817 C 3.7198,2.753309 3.95719,2.463724 4.48747,2.463724 Z m -3.4515,0.07 H 2.035 V 5.520555 H 1.03595 Z" />
+  </g>
+</svg>

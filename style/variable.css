@@ -1,0 +1,63 @@
+@import '../font/font.css';
+
+:root {
+    /* Couleurs */
+    --bleu-fonce: rgb(0, 0, 25);
+    --bleu-clair: rgb(33, 33, 58);
+    --golden-pink: #ecbba7;
+    --golden-pink-transparence: #ecbba760;
+    --blanc-casse: rgb(240, 240, 240);
+    --blanc: rgb(255, 255, 255);
+    --transparence: rgba(255, 255, 255, 0.2);
+    
+    /* Width et Height */
+    --nav-width: 200px;
+    --logo-circle: 70px;
+    --nav-contact-link: 25px;
+    --ext-link-pres: 35px;
+    --slider-label-size: 15px;
+    --hexagon-height-slider: 300px;
+    --hexagon-width-slider: 400px;
+
+    --width-slider-about: 45vw;
+    --width-translate-about: -45vw;
+
+    /* Padding et Margin */
+    --padding-lr-nav: 50px; 
+    --padding-lr-section: 70px;
+    --padding-tb-article: 50px;
+
+    --titre-margin-bottom: 60px;
+
+    /* Border-radius */
+    --border-radius-button: 10px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "Poppins", sans-serif;
+
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    -webkit-hyphens: auto;
+        -ms-hyphens: auto;
+            hyphens: auto;
+    
+    scrollbar-width: thin;
+    scrollbar-color: var(--golden-pink-transparence);
+}
+
+*::-webkit-scrollbar {
+    width: 9px;
+    height: 9px;
+}
+*::-webkit-scrollbar-track {
+    border: 10px solid rgba(156, 156, 156, 0.24);
+}
+*::-webkit-scrollbar-thumb {
+    background-color: var(--golden-pink-transparence);
+    border-radius: 5px;
+}
