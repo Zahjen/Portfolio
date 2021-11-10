@@ -22,6 +22,14 @@
     --width-slider-about: 45vw;
     --width-translate-about: -45vw;
 
+    --sphere-centre-competences-size: 50px;
+    --hauteur-sphere-langages-competences: 170px;
+    --largeur-sphere-langages-competences: 240px;
+    --sphere-position-10-competences: -10px;
+    --sphere-position-50-competences: -50px;
+    --sphere-position-70-competences: -70px;
+    --sphere-position-100-competences: -100px;
+
     /* Padding et Margin */
     --padding-lr-nav: 50px; 
     --padding-lr-section: 70px;
@@ -31,6 +39,14 @@
 
     /* Border-radius */
     --border-radius-button: 10px;
+
+    /* Temps */
+    --temps-sphere: 18s;
+
+    /* rotation */
+    --rotation-sphere-language-competences: 15deg;
+    --rotation-language-competences: 45deg;
+    --rotation-complete: 360deg;
 }
 
 * {
