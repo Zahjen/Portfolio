@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="95mm"
+   height="95mm"
+   viewBox="5.591 3.262 68.191894 68.152719"
+   version="1.1"
+   id="svg27"
+   sodipodi:docname="python.svg"
+   inkscape:version="1.1.1 (eb90963e84, 2021-10-02)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs31" />
+  <sodipodi:namedview
+     id="namedview29"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     units="mm"
+     width="95mm"
+     inkscape:zoom="1.4560743"
+     inkscape:cx="249.98724"
+     inkscape:cy="183.02637"
+     inkscape:window-width="1874"
+     inkscape:window-height="1016"
+     inkscape:window-x="46"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg27"
+     inkscape:document-units="mm" />
+  <linearGradient
+     id="a"
+     gradientUnits="userSpaceOnUse"
+     x1="-2031.312"
+     y1="275.86801"
+     x2="-1922.296"
+     y2="182.075"
+     gradientTransform="matrix(0.5625,0,0,-0.568,1271.1602,162.03675)">
+    <stop
+       offset="0"
+       stop-color="#5a9fd4"
+       id="stop4" />
+    <stop
+       offset="1"
+       stop-color="#306998"
+       id="stop6" />
+  </linearGradient>
+  <linearGradient
+     id="b"
+     gradientUnits="userSpaceOnUse"
+     x1="-1880.151"
+     y1="125.305"
+     x2="-1919.08"
+     y2="180.384"
+     gradientTransform="matrix(0.5625,0,0,-0.568,1271.1602,162.03675)">
+    <stop
+       offset="0"
+       stop-color="#ffd43b"
+       id="stop11" />
+    <stop
+       offset="1"
+       stop-color="#ffe873"
+       id="stop13" />
+  </linearGradient>
+  <rect
+     style="fill:#000019;fill-opacity:0.47058824;stroke:none;stroke-width:0.293339;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="rect1268"
+     width="68.191895"
+     height="68.191895"
+     x="5.5910006"
+     y="3.2223928"
+     ry="0" />
+  <g
+     id="g1244"
+     transform="matrix(0.28282141,0,0,0.28282141,-13.963902,18.576936)"
+     style="stroke-width:2.05693;stroke-miterlimit:4;stroke-dasharray:none">
+    <path
+       d="m 189.03417,10.076331 c -4.584,0.021 -8.961,0.412 -12.812,1.094 -11.346,2.005 -13.406,6.2 -13.406,13.938 v 10.219 h 26.812 v 3.406 h -36.875 c -7.792,0 -14.616,4.684 -16.75,13.594 -2.462,10.213 -2.571,16.586 0,27.25 1.906,7.938 6.458,13.594 14.25,13.594 h 9.219 v -12.25 c 0,-8.85 7.657,-16.656 16.75,-16.656 h 26.781 c 7.455,0 13.406,-6.138 13.406,-13.625 v -25.533 c 0,-7.266 -6.13,-12.725 -13.406,-13.938 -4.607,-0.766 -9.385,-1.115 -13.969,-1.093 z m -14.5,8.218 c 2.77,0 5.031,2.299 5.031,5.125 0,2.816 -2.262,5.094 -5.031,5.094 -2.779,0 -5.031,-2.277 -5.031,-5.094 0,-2.826 2.252,-5.125 5.031,-5.125 z"
+       fill="url(#a)"
+       id="path9"
+       style="fill:none;stroke:#ffffff;stroke-width:2.05693;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       d="m 219.75317,38.732331 v 11.906 c 0,9.231 -7.826,17 -16.75,17 h -26.781 c -7.336,0 -13.406,6.278 -13.406,13.625 v 25.530999 c 0,7.267 6.318,11.541 13.406,13.625 8.487,2.496 16.626,2.947 26.781,0 6.75,-1.954 13.406,-5.888 13.406,-13.625 V 96.576331 h -26.781 v -3.406 h 40.187 c 7.793,0 10.696,-5.436 13.406,-13.594 2.8,-8.398 2.681,-16.476 0,-27.25 -1.926,-7.757 -5.604,-13.594 -13.406,-13.594 z m -15.063,64.655999 c 2.779,0 5.031,2.277 5.031,5.094 0,2.826 -2.252,5.125 -5.031,5.125 -2.77,0 -5.031,-2.299 -5.031,-5.125 0,-2.816 2.262,-5.094 5.031,-5.094 z"
+       fill="url(#b)"
+       id="path16"
+       style="fill:none;stroke:#ffffff;stroke-width:2.05693;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+  <path
+     d="m 463.554,26.909 h 1.562 v -9.796 h 3.699 v -1.168 h -8.962 v 1.168 h 3.7 v 9.796 m 6.648,0 h 1.334 v -8.947 l 2.896,8.946 h 1.485 l 3.019,-8.916 v 8.917 h 1.456 V 15.946 h -1.926 l -3.299,9.393 -2.812,-9.393 h -2.153 v 10.963"
+     fill="#646464"
+     id="path18" />
+  <radialGradient
+     id="c"
+     cx="-3393.238"
+     cy="376.79099"
+     r="29.037001"
+     gradientTransform="matrix(0,-0.2399,-1.0547,0,458.797,-680.1)"
+     gradientUnits="userSpaceOnUse">
+    <stop
+       offset="0"
+       stop-color="#b8b8b8"
+       stop-opacity=".498"
+       id="stop20" />
+    <stop
+       offset="1"
+       stop-color="#7f7f7f"
+       stop-opacity="0"
+       id="stop22" />
+  </radialGradient>
+</svg>
