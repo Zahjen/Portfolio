@@ -730,10 +730,10 @@ nav .nav-links .part-link-page:hover {
 }
  
 .wrapper-projet .memo-game { 
-    background-image: url('../images/memo-game.svg');
+    background-image: url('../images/memo-game.png');
 }
 .wrapper-projet .nbr-signe {
-    background-image: url('../images/nbr-signe.svg');
+    background-image: url('../images/nbr-signe.png');
 }
 .wrapper-projet .math {
     background-image: url('../images/math.svg');
@@ -742,15 +742,15 @@ nav .nav-links .part-link-page:hover {
     background-image: url('../images/to-do-list.png');
 }
 .wrapper-projet .app-mob { 
-    background-image: url('../images/app-mob.svg');
+    background-image: url('../images/app-mob.png');
 }
 .wrapper-projet .pswd-gen { 
-    background-image: url('../images/pswd-gen.svg');
+    background-image: url('../images/pswd-gen.png');
 }
 
 .wrapper-projet a:hover .triangle, .wrapper-projet a:hover .triangle-2 {
     transform: scale(10);
-    background-image: url('../images/js-html-css.svg');
+    background-image: url('../images/js-html-css.png');
 }
 
 .wrapper-projet .math:hover {
@@ -778,15 +778,15 @@ nav .nav-links .part-link-page:hover {
 }
 
 .wrapper-projet .math:hover .triangle, .wrapper-projet .math:hover .triangle-2 {
-    background-image: url('../images/js-html-scss.svg');
+    background-image: url('../images/js-html-scss.png');
 }
 
 .wrapper-projet .app-mob:hover .triangle, .wrapper-projet .app-mob:hover .triangle-2 {
-    background-image: url('../images/flutter.svg');
+    background-image: url('../images/flutter.png');
 }
 
 .wrapper-projet .nbr-signe:hover .triangle, .wrapper-projet .nbr-signe:hover .triangle-2 {
-    background-image: url('../images/python.svg');
+    background-image: url('../images/python.png');
 }
 
 /* -------------------------------- Media queries -------------------------------- */
