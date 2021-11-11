@@ -137,6 +137,7 @@ nav .nav-links .part-link-page:hover {
     width: -moz-fit-content;
     width: fit-content;
     font-size: 60px;
+    font-weight: bold;
     color: var(--golden-pink);
     position: relative;
 }
