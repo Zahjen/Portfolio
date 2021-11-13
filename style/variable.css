@@ -10,37 +10,6 @@
     --blanc-casse: rgb(240, 240, 240);
     --blanc: rgb(255, 255, 255);
     --transparence: rgba(255, 255, 255, 0.2);
-    
-    /* Width et Height */
-    --nav-width: 200px;
-    --logo-circle: 70px;
-    --nav-contact-link: 25px;
-    --ext-link-pres: 35px;
-    --slider-label-size: 15px;
-    --hexagon-height-slider: 300px;
-    --hexagon-width-slider: 400px;
-
-    --width-slider-about: 45vw;
-    --width-translate-about: -45vw;
-
-    --sphere-centre-competences-size: 50px;
-    --hauteur-sphere-langages-competences: 170px;
-    --largeur-sphere-langages-competences: 240px;
-    --sphere-position-10-competences: -10px;
-    --sphere-position-50-competences: -50px;
-    --sphere-position-70-competences: -70px;
-    --sphere-position-100-competences: -100px;
-
-    /* Padding et Margin */
-    --padding-lr-nav: 50px; 
-    --padding-lr-section: 70px;
-    --padding-tb-article: 50px;
-    --padding-lr-article-projet: 100px;
-
-    --titre-margin-bottom: 60px;
-
-    /* Border-radius */
-    --border-radius-button: 10px;
 
     /* Temps */
     --temps-sphere: 18s;
@@ -49,6 +18,41 @@
     --rotation-sphere-language-competences: 15deg;
     --rotation-language-competences: 45deg;
     --rotation-complete: 360deg;
+    
+    /* Grands écrans */
+        /* Width et Height */
+        --nav-width: 200px;
+        --logo-circle: 70px;
+        --nav-contact-link: 25px;
+        --ext-link-pres: 35px;
+        --slider-label-size: 15px;
+        --hexagon-height-slider: 300px;
+        --hexagon-width-slider: 400px;
+
+        --width-slider-about: 45vw;
+        --width-translate-about: -45vw;
+
+        --sphere-centre-competences-size: 50px;
+        --hauteur-sphere-langages-competences: 170px;
+        --largeur-sphere-langages-competences: 240px;
+        --sphere-position-10-competences: -10px;
+        --sphere-position-50-competences: -50px;
+        --sphere-position-70-competences: -70px;
+        --sphere-position-100-competences: -100px;
+
+        /* Padding et Margin */
+        --padding-lr-nav: 50px; 
+        --padding-lr-section: 70px;
+        --padding-tb-article: 50px;
+        --padding-lr-article-projet: 100px;
+        --padding-interet: 40px;
+
+        --titre-margin-bottom: 60px;
+
+        /* border et Border-radius */
+        --border-radius-button: 10px;
+        --border-radius-technologie: 5px;
+        --border-interet: var(--golden-pink) 3px solid;
 }
 
 * {
