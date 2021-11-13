@@ -4,6 +4,7 @@
     /* Couleurs */
     --bleu-fonce: rgb(0, 0, 25);
     --bleu-clair: rgb(33, 33, 58);
+    --bleu-ciel: rgb(163, 255, 240);
     --golden-pink: #ecbba7;
     --golden-pink-transparence: #ecbba760;
     --blanc-casse: rgb(240, 240, 240);
@@ -34,6 +35,7 @@
     --padding-lr-nav: 50px; 
     --padding-lr-section: 70px;
     --padding-tb-article: 50px;
+    --padding-lr-article-projet: 100px;
 
     --titre-margin-bottom: 60px;
 
@@ -56,6 +58,7 @@
 
     font-family: "Poppins", sans-serif;
 
+    text-align: justify;
     word-wrap: break-word;
     overflow-wrap: break-word;
     -webkit-hyphens: auto;
