@@ -137,7 +137,7 @@ nav .nav-links .part-link-page:hover {
     width: -moz-fit-content;
     width: fit-content;
     font-size: 60px;
-    font-weight: bold;
+    font-weight: bolder;
     color: var(--golden-pink);
     position: relative;
 }
@@ -261,7 +261,6 @@ nav .nav-links .part-link-page:hover {
 }
 
 .container-about div {
-    text-align: justify;
     margin-right: 150px;
     width: 50vw;
 }
@@ -343,7 +342,8 @@ nav .nav-links .part-link-page:hover {
 }
 
 .container-slider-about .hexagon-border, .container-slider-about .hexagon {
-    clip-path: polygon(0 20%, 50% 0, 100% 20%, 100% 80%, 50% 100%, 0 80%);
+    -webkit-clip-path: polygon(0 20%, 50% 0, 100% 20%, 100% 80%, 50% 100%, 0 80%);
+            clip-path: polygon(0 20%, 50% 0, 100% 20%, 100% 80%, 50% 100%, 0 80%);
 }
 
 .container-slider-about .hexagon-border {
@@ -365,7 +365,8 @@ nav .nav-links .part-link-page:hover {
 
 .container-slider-about .caret {
     background-color: var(--golden-pink);
-    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+            clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
     width: 30px;
     height: 15px;
     margin: 20px 0;
@@ -432,14 +433,13 @@ nav .nav-links .part-link-page:hover {
 /* -------------------------------- Mes compétences -------------------------------- */
 
 .container-texte-competence-home {
-    text-align: justify;
-    /*max-width: 1100px;*/
     margin-bottom: 30px;
 }
 
 .container-competence-bar-date .competence-date > .icon-caret-comp {
     background-color: var(--golden-pink);
-    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+            clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
     width: 14px;
     height: 7px;
     margin: 5px 0;
@@ -788,6 +788,107 @@ nav .nav-links .part-link-page:hover {
 
 .wrapper-projet .nbr-signe:hover .triangle, .wrapper-projet .nbr-signe:hover .triangle-2 {
     background-image: url('../images/python.png');
+}
+
+/* -------------------------------- Page projets individuels -------------------------------- */
+
+.section-projet-individuel {
+    padding-left: var(--nav-width);
+}
+
+.article-projet-individuel {
+    max-width: 1100px;
+    padding: var(--padding-tb-article) var(--padding-lr-article-projet);
+}
+
+.article-projet-individuel .titre-projet {
+    display: flex;
+    align-items: center;
+}
+
+.article-projet-individuel .titre-projet .retour-projet-index div {
+    margin-right: 25px;
+    background-image: url('../images/back-projet.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 38px;
+    width: 19.4px;
+}
+
+.img-responsive-projet {
+    max-height: 310px;
+    width: auto;
+    margin: 50px 0 20px 0;
+}
+
+.h2-projet-individuel {
+    font-size: 30px;
+    color: var(--blanc);
+    margin: 40px 0;
+}
+
+.article-projet-individuel .code-python {
+    background-color: var(--bleu-clair);
+    padding: 10px 20px;
+    margin-top: 30px;
+    border: solid 1px var(--transparence);
+    border-radius: var(--border-radius-button);
+}
+
+.article-projet-individuel .code-python span:nth-child(1), .article-projet-individuel .code-python span:nth-child(2) {
+    color: var(--golden-pink);
+}
+
+.article-projet-individuel .code-python span:nth-child(3), .article-projet-individuel .code-python span:nth-child(4), .article-projet-individuel .code-python span:nth-child(5) {
+    color: var(--bleu-ciel);
+}
+
+.container-technologie, .github-website {
+    display: flex;
+    flex-direction: row;
+}
+
+.container-technologie > div {
+    background-color: var(--golden-pink);
+    color: var(--bleu-fonce);
+    margin-right: 30px;
+    padding: 5px 15px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: var(--border-radius-technologie);
+}
+
+.github-website > a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: var(--blanc-casse);
+}
+
+.github-website a .icon-ext {
+    width: var(--nav-contact-link);
+    height: var(--nav-contact-link);
+    margin-right: 15px;
+}
+
+.github-website a .icon-light-github {
+    background-image: url('../images/github-icon-light.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.github-website a .icon-light-website {
+    background-image: url('../images/github-icon-light.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 50px;
+}
+
+
+.github-website a .icon-light-website {
+    background-image: url('../images/web_light.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* -------------------------------- Media queries -------------------------------- */
