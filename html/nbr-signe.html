@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/style.css">
+
+    <!-- Poppins font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    
+    <title>Projet - Nombres signés</title>
+</head>
+<body>
+    
+    <nav class="nav"> 
+        <!-- Burger menu relatif à la version mobile -->
+        <input type="checkbox" id="nav-checkbox">
+        <label for="nav-checkbox" class="nav-button">
+            <div class="line-1"></div>
+            <div class="line-2"></div>
+            <div class="line-3"></div>
+        </label>
+
+        <!-- Bar de naviguation -->
+        <div class="nav-bar-container">
+            <div class="logo">
+                <div class="circle">
+                    S
+                </div>
+                <div class="prenom">
+                    Sabrina
+                </div>
+            </div>        
+
+            <!-- Lien de naviguation -->
+            <div class="nav-links">
+                <a href="../index.html#about" class="part-link-page">
+                    À propos
+                </a>
+                <a href="../index.html#competences" class="part-link-page">
+                    Compétences
+                </a>
+                <a href="../index.html#realisation" class="part-link-page">
+                    Réalisations
+                </a>
+                <a href="../index.html#interet" class="part-link-page">
+                    Interêt
+                </a>
+
+                <!-- Lien Externe : Github, Linkedin, mail -->
+                <div class="contact-link">
+                    <a href="#"><div></div></a>
+                    <a href="#"><div></div></a>
+                    <a href="#"><div></div></a>
+                </div>
+            </div>
+
+            <!-- Permet un alignement centrale des liens -->
+            <div class="ghost"></div>
+        </div> 
+    </nav>  
+
+    <section class="section-projet-individuel">
+        <article class="article article-projet-individuel">
+            <h1 class="titre-projet">
+                <a href="../index.html#realisation" class="retour-projet-index"><div></div></a>
+                <div>
+                    <span style="--i:1">N</span><span style="--i:2">o</span><span style="--i:3">m</span><span style="--i:4">b</span><span style="--i:5">r</span><span style="--i:6">e</span><span style="--i:7">s</span>
+                    <span style="--i:8">s</span><span style="--i:9">i</span><span style="--i:10">g</span><span style="--i:11">n</span><span style="--i:12">é</span><span style="--i:13">s</span>
+                </div>
+            </h1>
+             <figure>
+                <a href="https://github.com/Zahjen/Signed_Number" target="_blank">
+                    <img src="../images/nbr-signe-responsive.png" alt="Site : Nombre Signé" class="img-responsive-projet">
+                </a>
+            </figure>
+            <h2 class="h2-projet-individuel">
+                Description
+            </h2>
+            <p class="descriprion-projet-texte">
+                Parce qu'il est clair que dans la vie de tous les jours il est primordial de savoir faire des opérations en binaire, en hexadécimal ou encore en octal sur les nombres signés posés sur papier, il m'est venu l'idée de me faciliter un peu la vie en écrivant un script python me permettant de vérifier que mes résultats en opérations posées étaient correctes. 
+                <br><br>
+                L'utilisation de ce script est assez simple, il suffit de faire appel à la fonction addition ou soustraction, puis d'y placer les nombres sur lesquels on souhaite opérer. Donnons un petit exemple : Si l'on souhaite soustraire deux nombres en hexadécimal, donc en base 16, disons __ et __, pour vérifier que les résultats obtenus sont correctes, on aura juste à faire appel à la fonction suivante, puis de lancer notre script : 
+                <div class="code-python">
+                    <span>print</span>(<span>subtraction</span>(<span>__</span>, <span>__</span>, <span>16</span>)) 
+                </div>
+            </p>
+            <h2 class="h2-projet-individuel">
+                Technologies
+            </h2>
+            <div class="container-technologie">
+                <div>
+                    Python
+                </div>
+            </div>
+            <h2 class="h2-projet-individuel">
+                En savoir plus
+            </h2>
+            <div class="github-website">
+                <a href="https://github.com/Zahjen/Signed_Number" target="_blank">
+                    <div class="icon-ext icon-light-github"></div>
+                    <div>
+                        Github
+                    </div>
+                </a>
+            </div>
+        </article>
+    </section>
+
+
+</body>
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/style.css">
+
+    <!-- Poppins font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    
+    <title>Projet - To Do List</title>
+</head>
+<body>
+    
+    <nav class="nav"> 
+        <!-- Burger menu relatif à la version mobile -->
+        <input type="checkbox" id="nav-checkbox">
+        <label for="nav-checkbox" class="nav-button">
+            <div class="line-1"></div>
+            <div class="line-2"></div>
+            <div class="line-3"></div>
+        </label>
+
+        <!-- Bar de naviguation -->
+        <div class="nav-bar-container">
+            <div class="logo">
+                <div class="circle">
+                    S
+                </div>
+                <div class="prenom">
+                    Sabrina
+                </div>
+            </div>        
+
+            <!-- Lien de naviguation -->
+            <div class="nav-links">
+                <a href="../index.html#about" class="part-link-page">
+                    À propos
+                </a>
+                <a href="../index.html#competences" class="part-link-page">
+                    Compétences
+                </a>
+                <a href="../index.html#realisation" class="part-link-page">
+                    Réalisations
+                </a>
+                <a href="../index.html#interet" class="part-link-page">
+                    Interêt
+                </a>
+
+                <!-- Lien Externe : Github, Linkedin, mail -->
+                <div class="contact-link">
+                    <a href="#"><div></div></a>
+                    <a href="#"><div></div></a>
+                    <a href="#"><div></div></a>
+                </div>
+            </div>
+
+            <!-- Permet un alignement centrale des liens -->
+            <div class="ghost"></div>
+        </div> 
+    </nav>  
+
+    <section class="section-projet-individuel">
+        <article class="article article-projet-individuel">
+            <h1 class="titre-projet">
+                <a href="../index.html#realisation" class="retour-projet-index"><div></div></a>
+                <div>
+                    <span style="--i:1">Y</span><span style="--i:2">o</span><span style="--i:3">u</span><span style="--i:4">r</span>
+                    <span style="--i:5">T</span><span style="--i:6">o</span>
+                    <span style="--i:7">D</span><span style="--i:8">o</span>
+                    <span style="--i:9">L</span><span style="--i:10">i</span><span style="--i:11">s</span><span style="--i:12">t</span>
+                </div>
+            </h1>
+             <figure>
+                <a href="https://zahjen.github.io/YourToDoList/" target="_blank">
+                    <img src="../images/to-do-list-responsive.png" alt="Site : Your To Do List" class="img-responsive-projet">
+                </a>
+            </figure>
+            <h2 class="h2-projet-individuel">
+                Description
+            </h2>
+            <p class="descriprion-projet-texte">
+                Comme son nom l'indique, Your To Do List est un site vous permettant de créer une petite liste de ce que vous souhaitez accomplir au cours de votre journée, de votre semaine, ou même les résolutions de début d'année qu'on ne tient jamais. Une To Do List comme on l'entend. 
+                <br><br>
+                Ce site utilise le principe du Local Storage. Tout ce que vous entrez est par conséquent sauvegardé dans votre Local Storage sans durée d'expiration. Ainsi, que ce soit après fermeture du navigateur ou encore après extinction de l'ordinateur, les données seront sauvées, et vous y aurez à nouveau accès lors de votre prochaine connexion. Il ne faudra donc pas y placer ses mots de passe ou données sensibles. En effet, le local Storage ne permet pas de chiffrer les données entrées, et reste donc facile d'accès à n'importe qui aurait accès physiquement ou à distance du navigateur. 
+            </p>
+            <h2 class="h2-projet-individuel">
+                Technologies
+            </h2>
+            <div class="container-technologie">
+                <div>
+                    HTML5
+                </div>
+                <div>
+                    CSS3
+                </div>
+                <div>
+                    JavaScript
+                </div>
+                <div>
+                    Local Storage
+                </div>
+            </div>
+            <h2 class="h2-projet-individuel">
+                En savoir plus
+            </h2>
+            <div class="github-website">
+                <a href="https://github.com/Zahjen/YourToDoList" target="_blank">
+                    <div class="icon-ext icon-light-github"></div>
+                    <div>
+                        Github
+                    </div>
+                </a>
+                <a href="https://zahjen.github.io/YourToDoList/" target="_blank">
+                    <div class="icon-ext icon-light-website"></div>
+                    <div>
+                        Site Web
+                    </div>
+                </a>
+            </div>
+        </article>
+    </section>
+
+
+</body>
+</html>
