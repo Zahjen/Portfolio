@@ -53,6 +53,19 @@
         --border-radius-button: 10px;
         --border-radius-technologie: 5px;
         --border-interet: var(--golden-pink) 3px solid;
+    
+    /* Tablette */
+        /* Width and height */
+        --burger-menu-top-right: 20px;
+        --burger-menu-circle: 45px;
+        --ext-link-pres-tablet: 30px;
+
+        --width-slider-about-tablet: 75vw;
+        --width-translate-about-tablet: -75vw;
+
+        /* Padding et Margin */
+        --titre-margin-bottom-tablet: 50px;
+        --padding-lr-article-projet-tablet: 70px;
 }
 
 * {
@@ -79,6 +92,7 @@
 }
 *::-webkit-scrollbar-track {
     border: 10px solid rgba(156, 156, 156, 0.24);
+    border-radius: 5px;
 }
 *::-webkit-scrollbar-thumb {
     background-color: var(--golden-pink-transparence);
