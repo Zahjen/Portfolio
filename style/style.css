@@ -790,6 +790,72 @@ nav .nav-links .part-link-page:hover {
     background-image: url('../images/python.png');
 }
 
+/* -------------------------------- Centre d'interet -------------------------------- */
+
+.container-interet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper-interet {
+    max-width: 1000px;
+}
+
+.interet-texte-img .interet-texte a {
+    color: var(--golden-pink);
+}
+
+.interet-texte-img {
+    padding: calc(var(--padding-interet) + 10px);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.interet-video, .interet-dev {
+    border-left: var(--border-interet);
+    border-bottom: var(--border-interet);
+}
+
+.interet-jeux {
+    border-right: var(--border-interet);
+    border-bottom: var(--border-interet);
+}
+
+.interet-dessin {
+    border-right: var(--border-interet);
+}
+
+.interet-texte-img .interet-img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+}
+
+.interet-video .interet-img-video {
+    background-image: url("../images/interet-video.svg");
+    margin-right: var(--padding-interet);
+}
+
+.interet-jeux .interet-img-jeux {
+    background-image: url("../images/interet-jeu.svg");
+    margin-left: var(--padding-interet);
+}
+
+.interet-dev .interet-img-dev {
+    background-image: url("../images/interet-dev.svg");
+    margin-right: var(--padding-interet);
+}
+
+.interet-dessin .interet-img-dessin {
+    background-image: url("../images/interet-dessin.svg");
+    margin-left: var(--padding-interet);
+}
+
 /* -------------------------------- Page projets individuels -------------------------------- */
 
 .section-projet-individuel {
@@ -815,10 +881,19 @@ nav .nav-links .part-link-page:hover {
     width: 19.4px;
 }
 
-.img-responsive-projet {
-    max-height: 310px;
-    width: auto;
+.article-projet-individuel figure a img {
+    height: auto;
     margin: 50px 0 20px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-responsive-projet {
+    width: 100%; 
+}
+
+.img-responsive-projet-a {
+    width: 610px;   
 }
 
 .h2-projet-individuel {
@@ -900,6 +975,17 @@ nav .nav-links .part-link-page:hover {
     }
 
     .nav-bar-container .logo, .nav-bar-container .contact-link, .nav-bar-container .ghost {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .container-about div {
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .container-about .map {
         display: none;
     }
 }
