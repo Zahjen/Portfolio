@@ -87,6 +87,12 @@ nav .nav-links .part-link-page:hover {
     justify-content: center;
 }
 
+.contact-link a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .contact-link a div {
     height: var(--nav-contact-link);
     width: var(--nav-contact-link);
@@ -100,7 +106,6 @@ nav .nav-links .part-link-page:hover {
 
 .contact-link a:nth-child(2) div {
     background-image: url('../images/linkedin-icon-dark.svg');
-    /*margin: 0 15px;*/
 }
 
 .contact-link a:nth-child(3) div {
@@ -109,7 +114,7 @@ nav .nav-links .part-link-page:hover {
 }
 
 .contact-link a:hover {
-    transform: translatey(-10px);
+    transform: translateY(-10px);
 }
 
 /* -------------------------------- Section -------------------------------- */
@@ -451,7 +456,7 @@ nav .nav-links .part-link-page:hover {
     grid-template-rows: repeat(7, 1fr);
     grid-row-gap: 5px;
     margin-top: 30px;
-    width: 100%;  /*Pose pb au niveau de rezise de la page, voir pour modif ça*/
+    width: 100%; 
 }
 
 .competence-underline {
