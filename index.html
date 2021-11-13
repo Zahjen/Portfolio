@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Feuille de styles -->
+    <link rel="stylesheet" href="style/general.css">
     <link rel="stylesheet" media="screen and (min-width: 1020px)" href="style/style.css">
+    <link rel="stylesheet" media="screen and (min-width: 720px) and (max-width: 1019px)" href="style/style-tablet.css">
 
     <!-- Poppins font family -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -27,9 +29,11 @@
         <!-- Burger menu relatif à la version mobile -->
         <input type="checkbox" id="nav-checkbox">
         <label for="nav-checkbox" class="nav-button">
-            <div class="line-1"></div>
-            <div class="line-2"></div>
-            <div class="line-3"></div>
+            <div class="line-container-nav-btn">
+                <div class="line-1"></div>
+                <div class="line-2"></div>
+                <div class="line-3"></div>
+            </div>
         </label>
 
         <!-- Bar de naviguation -->
@@ -475,8 +479,6 @@
                 </div>
             </div>
         </article>
-
     </section>
-
 </body>
 </html>
