@@ -21,7 +21,6 @@ a {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    position: fixed;
     background-color: var(--golden-pink);
     color: var(--bleu-fonce);
     width: var(--nav-width);
@@ -126,6 +125,7 @@ nav .nav-button {
     justify-content: center;
     align-items: center;
     position: fixed;
+    z-index: 99;
     background-color: var(--bleu-fonce);
     width: var(--burger-menu-circle);
     height: var(--burger-menu-circle);
@@ -408,6 +408,7 @@ nav #nav-checkbox:checked ~ .nav-bar-container {
 
 .container-slider-about .hexagon {
     background-color: var(--bleu-fonce);
+    color: var(--blanc-casse);
     font-size: 20px;
     height: calc(var(--hexagon-height-slider) - 10px);
     width: calc(var(--hexagon-width-slider) - 10px);
@@ -450,10 +451,6 @@ nav #nav-checkbox:checked ~ .nav-bar-container {
     transform: translateX(calc(4 * var(--width-translate-about-tablet)));
 }
 
-.container-slider-about .swiper-container-about #cursus-input-6:checked ~ .swiper-wrapper-about {
-    transform: translateX(calc(5 * var(--width-translate-about-tablet)));
-}
-
 .container-slider-about .swiper-container-about #cursus-input-1:checked ~ .slider-label-container #cursus-label-1 div {
     background-color: var(--golden-pink);
     transform: rotateZ(45deg) scale(1.5);
@@ -475,11 +472,6 @@ nav #nav-checkbox:checked ~ .nav-bar-container {
 }
 
 .container-slider-about .swiper-container-about #cursus-input-5:checked ~ .slider-label-container #cursus-label-5 div {
-    background-color: var(--golden-pink);
-    transform: rotateZ(45deg) scale(1.5);
-}
-
-.container-slider-about .swiper-container-about #cursus-input-6:checked ~ .slider-label-container #cursus-label-6 div {
     background-color: var(--golden-pink);
     transform: rotateZ(45deg) scale(1.5);
 }
@@ -865,7 +857,6 @@ nav #nav-checkbox:checked ~ .nav-bar-container {
     display: flex;
     flex-direction: row;
     align-items: center;
-
 }
 
 .interet-video, .interet-dev {
@@ -941,8 +932,6 @@ nav #nav-checkbox:checked ~ .nav-bar-container {
 .article-projet-individuel figure a img {
     height: auto;
     margin: 50px 0 20px 0;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .img-responsive-projet {
