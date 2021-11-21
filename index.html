@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -30,23 +30,21 @@
         <!-- Burger menu relatif à la version mobile -->
         <input type="checkbox" id="nav-checkbox">
         <label for="nav-checkbox" class="nav-button">
-            <div class="line-container-nav-btn">
-                <div class="line-1"></div>
-                <div class="line-2"></div>
-                <div class="line-3"></div>
-            </div>
+            <span class="line-1"></span>
+            <span class="line-2"></span>
+            <span class="line-3"></span>
         </label>
 
         <!-- Bar de naviguation -->
         <div class="nav-bar-container">
-            <div class="logo">
+            <a href="#presentation" class="logo">
                 <div class="circle">
                     S
                 </div>
                 <div class="prenom">
                     Sabrina
                 </div>
-            </div>        
+            </a>        
 
             <!-- Lien de naviguation -->
             <div class="nav-links">
@@ -59,15 +57,18 @@
                 <a href="#realisation" class="part-link-page">
                     Réalisations
                 </a>
+                <a href="#exp-pro" class="part-link-page">
+                    Expériences
+                </a>
                 <a href="#interet" class="part-link-page">
                     Interêt
                 </a>
 
                 <!-- Lien Externe : Github, Linkedin, mail -->
                 <div class="contact-link">
-                    <a href="https://github.com/Zahjen"><div></div></a>
-                    <a href="#"><div></div></a>
-                    <a href="mailto:sabrina.akniou2@gmail.com"><div></div></a>
+                    <a href="https://github.com/Zahjen"><span></span></a>
+                    <a href="#"><span></span></a>
+                    <a href="mailto:sabrina.akniou2@gmail.com"><span></span></a>
                 </div>
             </div>
 
@@ -78,33 +79,35 @@
 
     <section class="section-index">
 
+        <a href="#presentation" class="retour-haut-page">&lsaquo;</a>
+
         <!-- Page d'accueil -->
         <article class="article presentation-home article-home" id="presentation">
-            <h1 class="titre-presentation">
+            <div class="titre-presentation">
                 <span style="--i:1">B</span><span style="--i:2">o</span><span style="--i:3">n</span><span style="--i:4">j</span><span style="--i:5">o</span><span style="--i:6">u</span><span style="--i:7">r</span><span style="--i:8">,</span>
-            </h1>
+            </div>
 
             <div class="container-typing-animation">
-                <h1 class="titre-presentation">
+                <div class="titre-presentation">
                     <span style="--i:1">J</span><span class="espace-span-titre" style="--i:2">e</span> <span style="--i:3">s</span><span style="--i:4">u</span><span style="--i:5">i</span><span style="--i:6">s</span> &nbsp;
-                </h1>
+                </div>
 
-                <h1 class="wrapper-animation-typing-start">
-                    <div class="typing-animation-name">Sabrina.</div>
-                    <div class="typing-animation-now-1">étudiante en</div>
-                </h1>
+                <div class="wrapper-animation-typing-start">
+                    <div class="typing-animation-name typing-animation-home">Sabrina.</div>
+                    <div class="typing-animation-now-1 typing-animation-home">étudiante en</div>
+                </div>
 
-                <h1 class="typing-animation-now-2">
+                <div class="typing-animation-now-2 typing-animation-home">
                     informatique.
-                </h1>
+                </div>
             </div>
             
             <a href="#" class="button-style download-cv">Télécharger le CV</a>
 
             <div class="contact-link-accueil">
-                <a href="https://github.com/Zahjen"><div></div></a>
-                <a href="#"><div></div></a>
-                <a href="mailto:sabrina.akniou2@gmail.com"><div></div></a>
+                <a href="https://github.com/Zahjen"></a>
+                <a href="#"></a>
+                <a href="mailto:sabrina.akniou2@gmail.com"></a>
             </div>
         </article>
 
@@ -228,21 +231,11 @@
                     </div>
         
                     <div class="slider-label-container">
-                        <label for="cursus-input-1" id="cursus-label-1">
-                            <div></div>
-                        </label>
-                        <label for="cursus-input-2" id="cursus-label-2">
-                            <div></div>
-                        </label>
-                        <label for="cursus-input-3" id="cursus-label-3">
-                            <div></div>
-                        </label>
-                        <label for="cursus-input-4" id="cursus-label-4">
-                            <div></div>
-                        </label>
-                        <label for="cursus-input-5" id="cursus-label-5">
-                            <div></div>
-                        </label>
+                        <label for="cursus-input-1" id="cursus-label-1"></label>
+                        <label for="cursus-input-2" id="cursus-label-2"></label>
+                        <label for="cursus-input-3" id="cursus-label-3"></label>
+                        <label for="cursus-input-4" id="cursus-label-4"></label>
+                        <label for="cursus-input-5" id="cursus-label-5"></label>
                     </div>
                 </div>
             </div>
@@ -357,7 +350,7 @@
                 <div class="competence-html-css competence-underline">HTML / CSS</div>
                 <div class="competence-js-sass competence-underline">JavaScript / SASS</div>
                 <div class="competence-flutter competence-underline">Flutter / Dart / Firebase / NoSQL</div>
-                <div class="competence-python competence-underline">Pyhton</div>
+                <div class="competence-python competence-underline">Python</div>
                 <div class="competence-sql competence-underline">SQL</div>
                 <div class="competence-date-latex competence-date">
                     <div class="icon-caret-comp"></div>
@@ -423,6 +416,82 @@
             </div>
         </article>
 
+        <!-- Experiences Pro -->
+        <article class="article article-home" id="exp-pro">
+            <h1 class="titre-home">
+                <span style="--i:1">E</span><span style="--i:2">x</span><span style="--i:3">p</span><span style="--i:4">é</span><span style="--i:5">r</span><span style="--i:6">i</span><span style="--i:7">e</span><span style="--i:8">n</span><span style="--i:9">c</span><span style="--i:10">e</span><span style="--i:11">s</span>
+            </h1>
+            
+            <div class="container-exp-pro">
+
+                <div class="container-exp-pro-input-texte">
+                    <input type="checkbox" id="exp-pro-card-checkbox-1" class="exp-pro-card-checkbox">
+        
+                    <div class="wrapper-exp-pro">
+                        <div class="face cote">
+                            <div>
+                                Cours de
+                            </div>
+                            <div>
+                                mathématique
+                            </div>
+                            <div class="space">
+                                Luxembourg
+                            </div>       
+                        </div>
+                        <div class="dos cote">
+                            <ul>
+                                <li>
+                                    Oﬀrir des cours correspondants à la demande et au rythme de l'éléve aﬁn qu'il puisse reprendre conﬁance en lui.
+                                </li>
+                                <li>
+                                    Permettre à l'élève de découvrir une nouvelle approche, ainsi qu'un nou veau raisonnement aﬁn d'en extraire une certaine logique mathématique.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+        
+                    <label class="exp-pro-label" for="exp-pro-card-checkbox-1">
+                        <span class="plus">En savoir plus</span>
+                        <span class="moins">Retour</span>
+                    </label>
+                </div>
+                    
+                <div class="container-exp-pro-input-texte">
+        
+                    <input type="checkbox" id="exp-pro-card-checkbox-2" class="exp-pro-card-checkbox">
+                    
+                    <div class="wrapper-exp-pro">
+                        <div class="face cote">
+                            <div>
+                                Stage en cabinet
+                            </div>
+                            <div>
+                                d'architecture
+                            </div>
+                            <div class="space">
+                                Maloncourt - France
+                            </div>         
+                        </div>
+                        <div class="dos cote">
+                            <ul>
+                                <li>
+                                    Découverte du métier d'achitecte avec la visite de deux chantiers, ainsi que l'utilisation de divers logiciels, dont SketchUp.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                
+                    <label class="exp-pro-label" for="exp-pro-card-checkbox-2">
+                        <span class="plus">En savoir plus</span>
+                        <span class="moins">Retour</span>
+                    </label>
+        
+                </div>
+                
+            </div>
+        </article>
+
         <!-- Centre d'intérêt -->
         <article class="article article-home" id="interet">
             <h1 class="titre-home">
@@ -436,7 +505,7 @@
                     <div class="interet-video interet-texte-img">
                         <div class="interet-img interet-img-video"></div>
                         <div class="interet-texte">
-                            Parlons encore un peu de moi, et en particulier de mes centres d'intérêts. L'un des mes premiers passe temps, et un peu comme beaucoup de monde d'ailleurs, c'est de passer du temps à regarder des films, des séries, des animés ou encore des streams. 
+                            Parlons encore un peu de moi, et en particulier de mes centres d'intérêts. L'un de mes premiers passe temps, et un peu comme beaucoup de monde d'ailleurs, c'est de passer du temps à regarder des films, des séries, des animés ou encore certains streamers. 
                         </div>
                     </div>   
                     <div class="interet-jeux interet-texte-img">
