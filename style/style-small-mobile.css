@@ -279,23 +279,23 @@ nav #nav-checkbox:checked ~ .nav-bar-container {
     align-items: center;
 }
 
-.contact-link-accueil a div {
-    height: 22px; /* var(--ext-link-pres-mobile) */
-    width: 22px; /* var(--ext-link-pres-mobile) */
+.contact-link-accueil a {
+    height: 22px; 
+    width: 22px; 
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.contact-link-accueil a:nth-child(1) div {
+.contact-link-accueil a:nth-child(1) {
     background-image: url('../images/github-icon-light.svg');
 }
 
-.contact-link-accueil a:nth-child(2) div {
+.contact-link-accueil a:nth-child(2) {
     background-image: url('../images/linkedin-icon-light.svg');
     margin: 0 30px;
 }
 
-.contact-link-accueil a:nth-child(3) div {
+.contact-link-accueil a:nth-child(3) {
     background-image: url('../images/mail-icon-light.svg');
     width: 24.3px;
 }
@@ -1099,10 +1099,10 @@ nav #nav-checkbox:checked ~ .nav-bar-container {
         display: flex;
         justify-content: center;
         align-items: center;
-        color: white;
+        color: var(--blanc);
         background-color: var(--bleu-fonce);
         border-radius: 50%;
-        border: white solid 1px;
+        border: var(--blanc) solid 1px;
         font-size: 30px;
         transform: rotateZ(90deg);
         position: fixed;
