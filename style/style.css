@@ -1,5 +1,5 @@
-@import 'variable.css';
-@import 'keyframe.css';
+@import '../variables/variable.css';
+@import '../variables/keyframe.css';
 
 /* -------------------------------- Généralistés -------------------------------- */
 
@@ -12,15 +12,19 @@ a {
     text-decoration: none;
 }
 
+.retour-haut-page {
+    display: none;
+}
+
 /* -------------------------------- Barre de naviguation --------------------------------*/
 
 nav {
-    position: fixed;
     background-color: var(--golden-pink);
     color: var(--bleu-fonce);
     width: var(--nav-width);
     height: 100vh;
     padding: var(--padding-lr-nav) 0;
+    position: fixed;
 }
 
 #nav-checkbox, .nav-button {
@@ -40,6 +44,7 @@ nav .logo {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: var(--bleu-fonce);
 }
 
 nav .logo .circle {
@@ -93,22 +98,22 @@ nav .nav-links .part-link-page:hover {
     align-items: center;
 }
 
-.contact-link a div {
+.contact-link a span {
     height: var(--nav-contact-link);
     width: var(--nav-contact-link);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.contact-link a:nth-child(1) div {
+.contact-link a:nth-child(1) span {
     background-image: url('../images/github-icon-dark.svg');
 }
 
-.contact-link a:nth-child(2) div {
+.contact-link a:nth-child(2) span {
     background-image: url('../images/linkedin-icon-dark.svg');
 }
 
-.contact-link a:nth-child(3) div {
+.contact-link a:nth-child(3) span {
     background-image: url('../images/mail-icon-dark.svg');
     width: 28px;
 }
@@ -130,14 +135,13 @@ nav .nav-links .part-link-page:hover {
     width: 100%;
 }
 
-/* Tout les articles sauf le premier concernant la presentation */
 .article-home:not(.presentation-home) {
     padding: var(--padding-tb-article) 0;
 }
 
 /* Titre */ 
 
-.article h1 {
+.article h1, .typing-animation-home, .titre-presentation {
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
@@ -151,7 +155,7 @@ nav .nav-links .part-link-page:hover {
     margin-bottom: var(--titre-margin-bottom);
 }
 
-.article > h1:hover span, .container-typing-animation > .titre-presentation:hover span {
+.article > h1:hover span:not(.projet-titre-pas-anim), .titre-presentation:hover span {
     position: relative;
     display: inline-block;
     -webkit-animation: jumping-waves-letter 0.7s ease-in-out ;
@@ -235,23 +239,23 @@ nav .nav-links .part-link-page:hover {
     align-items: center;
 }
 
-.contact-link-accueil a div {
+.contact-link-accueil a {
     height: var(--ext-link-pres);
     width: var(--ext-link-pres);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.contact-link-accueil a:nth-child(1) div {
+.contact-link-accueil a:nth-child(1) {
     background-image: url('../images/github-icon-light.svg');
 }
 
-.contact-link-accueil a:nth-child(2) div {
+.contact-link-accueil a:nth-child(2) {
     background-image: url('../images/linkedin-icon-light.svg');
     margin: 0 40px;
 }
 
-.contact-link-accueil a:nth-child(3) div {
+.contact-link-accueil a:nth-child(3) {
     background-image: url('../images/mail-icon-light.svg');
     width: 38.6px;
 }
@@ -293,7 +297,7 @@ nav .nav-links .part-link-page:hover {
     display: flex;
 }
 
-.container-slider-about .swiper-container-about label div {
+.container-slider-about .swiper-container-about label {
     height: var(--slider-label-size);
     width: var(--slider-label-size);
     transform: rotateZ(45deg);
@@ -402,27 +406,27 @@ nav .nav-links .part-link-page:hover {
     transform: translateX(calc(4 * var(--width-translate-about)));
 }
 
-.container-slider-about .swiper-container-about #cursus-input-1:checked ~ .slider-label-container #cursus-label-1 div {
+.container-slider-about .swiper-container-about #cursus-input-1:checked ~ .slider-label-container #cursus-label-1 {
     background-color: var(--golden-pink);
     transform: rotateZ(45deg) scale(1.5);
 }
 
-.container-slider-about .swiper-container-about #cursus-input-2:checked ~ .slider-label-container #cursus-label-2 div {
+.container-slider-about .swiper-container-about #cursus-input-2:checked ~ .slider-label-container #cursus-label-2 {
     background-color: var(--golden-pink);
     transform: rotateZ(45deg) scale(1.5);
 }
 
-.container-slider-about .swiper-container-about #cursus-input-3:checked ~ .slider-label-container #cursus-label-3 div {
+.container-slider-about .swiper-container-about #cursus-input-3:checked ~ .slider-label-container #cursus-label-3 {
     background-color: var(--golden-pink);
     transform: rotateZ(45deg) scale(1.5);
 }
 
-.container-slider-about .swiper-container-about #cursus-input-4:checked ~ .slider-label-container #cursus-label-4 div {
+.container-slider-about .swiper-container-about #cursus-input-4:checked ~ .slider-label-container #cursus-label-4 {
     background-color: var(--golden-pink);
     transform: rotateZ(45deg) scale(1.5);
 }
 
-.container-slider-about .swiper-container-about #cursus-input-5:checked ~ .slider-label-container #cursus-label-5 div {
+.container-slider-about .swiper-container-about #cursus-input-5:checked ~ .slider-label-container #cursus-label-5 {
     background-color: var(--golden-pink);
     transform: rotateZ(45deg) scale(1.5);
 }
@@ -768,7 +772,7 @@ nav .nav-links .part-link-page:hover {
 }
 
 .wrapper-projet .app-mob:hover {
-    background-image: url('../images/app-mob-blur.svg');
+    background-image: url('../images/app-mob-blur.png');
 }
 
 .wrapper-projet .nbr-signe:hover {
@@ -787,6 +791,137 @@ nav .nav-links .part-link-page:hover {
     background-image: url('../images/python.png');
 }
 
+/* -------------------------------- Expériences pro -------------------------------- */
+
+.container-exp-pro-input-texte {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-exp-pro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.exp-pro-card-checkbox {
+    display: none;
+}
+
+.exp-pro-label {
+    margin-bottom: 50px;
+    border: 1px solid var(--blanc);
+    border-radius: 10px;
+    width: 170px;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.exp-pro-label > .plus {
+    display: block;
+}
+
+.exp-pro-label > .moins {
+    display: none;
+}
+
+.wrapper-exp-pro {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    width: var(--exp-pro-card);
+    height: var(--exp-pro-card);
+    margin: 40px;
+}
+
+.wrapper-exp-pro .cote > * {
+    transform: translateZ(100px);
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+}
+
+.wrapper-exp-pro .cote {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    grid-area: 1 / 1 / 2 / 2;
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+    transition: transform 0.5s ease-in-out;
+    border-radius: 20px;
+}
+
+.face {
+    background-color: rgb(33, 33, 58);
+    font-size: 30px;
+}
+
+.face > div:last-child {
+    margin-top: 20px;
+    color: var(--gris);
+    font-size: 25px;
+}
+
+.dos {
+    background-color: #ecbba760;
+    transform: perspective(1000px) rotate3d(1, 1, 0, 180deg);
+    font-size: 14px;
+}
+
+.dos ul {
+    width: 220px;
+}
+
+.dos ul li {
+    list-style-position: outside;
+}
+
+.dos ul li:first-child {
+    margin-bottom: 10px;
+}
+
+#exp-pro-card-checkbox-1:checked ~ .wrapper-exp-pro .face {
+    transform: perspective(1000px) rotate3d(1, 1, 0, 180deg);
+}
+
+#exp-pro-card-checkbox-1:checked ~ .wrapper-exp-pro .dos {
+    transform: perspective(1000px) rotate3d(1, 1, 0, 360deg);
+}
+
+#exp-pro-card-checkbox-1:checked ~ label > .plus {
+    display: none;
+}
+
+#exp-pro-card-checkbox-1:checked ~ label > .moins {
+    display: block;
+}
+
+#exp-pro-card-checkbox-2:checked ~ .wrapper-exp-pro .face {
+    transform: perspective(1000px) rotate3d(1, 1, 0, 180deg);
+}
+
+#exp-pro-card-checkbox-2:checked ~ .wrapper-exp-pro .dos {
+    transform: perspective(1000px) rotate3d(1, 1, 0, 360deg);
+}
+
+#exp-pro-card-checkbox-2:checked ~ label > .plus {
+    display: none;
+}
+
+#exp-pro-card-checkbox-2:checked ~ label > .moins {
+    display: block;
+}
+
 /* -------------------------------- Centre d'interet -------------------------------- */
 
 .container-interet {
@@ -799,7 +934,7 @@ nav .nav-links .part-link-page:hover {
     max-width: 1000px;
 }
 
-.interet-texte-img .interet-texte a {
+.interet-texte-img .interet-texte a, .descriprion-projet-texte a {
     color: var(--golden-pink);
 }
 
@@ -828,8 +963,8 @@ nav .nav-links .part-link-page:hover {
 .interet-texte-img .interet-img {
     background-repeat: no-repeat;
     background-size: cover;
-    width: 50px;
-    height: 50px;
+    width: var(--interet-icon);
+    height: var(--interet-icon);
     flex-shrink: 0;
 }
 
@@ -869,7 +1004,7 @@ nav .nav-links .part-link-page:hover {
     align-items: center;
 }
 
-.article-projet-individuel .titre-projet .retour-projet-index div {
+.article-projet-individuel .titre-projet .retour-projet-index {
     margin-right: 25px;
     background-image: url('../images/back-projet.svg');
     background-repeat: no-repeat;
@@ -971,6 +1106,24 @@ nav .nav-links .part-link-page:hover {
 
     .nav-bar-container .logo, .nav-bar-container .contact-link, .nav-bar-container .ghost {
         display: none;
+    }
+
+    .retour-haut-page {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        background-color: var(--bleu-fonce);
+        border-radius: 50%;
+        border: white solid 1px;
+        font-size: 30px;
+        transform: rotateZ(90deg);
+        position: fixed;
+        z-index: 99;
+        bottom: 30px;
+        right: 30px;
+        width: 50px;
+        height: 50px;
     }
 }
 
