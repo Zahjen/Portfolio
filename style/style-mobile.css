@@ -1100,10 +1100,10 @@ nav #nav-checkbox:checked ~ .nav-bar-container {
         display: flex;
         justify-content: center;
         align-items: center;
-        color: white;
+        color: var(--blanc);
         background-color: var(--bleu-fonce);
         border-radius: 50%;
-        border: white solid 1px;
+        border: var(--blanc) solid 1px;
         font-size: 30px;
         transform: rotateZ(90deg);
         position: fixed;
