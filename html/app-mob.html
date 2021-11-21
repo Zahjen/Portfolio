@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -25,23 +25,21 @@
         <!-- Burger menu relatif à la version mobile -->
         <input type="checkbox" id="nav-checkbox">
         <label for="nav-checkbox" class="nav-button">
-            <div class="line-container-nav-btn">
-                <div class="line-1"></div>
-                <div class="line-2"></div>
-                <div class="line-3"></div>
-            </div>
+            <span class="line-1"></span>
+            <span class="line-2"></span>
+            <span class="line-3"></span>
         </label>
 
         <!-- Bar de naviguation -->
         <div class="nav-bar-container">
-            <div class="logo">
+            <a href="../index.html#presentation" class="logo">
                 <div class="circle">
                     S
                 </div>
                 <div class="prenom">
                     Sabrina
                 </div>
-            </div>        
+            </a>         
 
             <!-- Lien de naviguation -->
             <div class="nav-links">
@@ -54,15 +52,18 @@
                 <a href="../index.html#realisation" class="part-link-page">
                     Réalisations
                 </a>
+                <a href="../index.html#exp-pro" class="part-link-page">
+                    Expériences
+                </a>
                 <a href="../index.html#interet" class="part-link-page">
                     Interêt
                 </a>
 
                 <!-- Lien Externe : Github, Linkedin, mail -->
                 <div class="contact-link">
-                    <a href="#"><div></div></a>
-                    <a href="#"><div></div></a>
-                    <a href="#"><div></div></a>
+                    <a href="#"><span></span></a>
+                    <a href="#"><span></span></a>
+                    <a href="#"><span></span></a>
                 </div>
             </div>
 
@@ -74,10 +75,10 @@
     <section class="section-projet-individuel">
         <article class="article article-projet-individuel">
             <h1 class="titre-projet">
-                <a href="../index.html#realisation" class="retour-projet-index"><div></div></a>
-                <div>
+                <a href="../index.html#realisation" class="retour-projet-index"></a>
+                <span class="projet-titre-pas-anim">
                     <span style="--i:1">O</span><span style="--i:2">r</span><span style="--i:3">g</span><span style="--i:4">a</span><span style="--i:5">n</span><span style="--i:6">i</span><span style="--i:7">z</span><span style="--i:8">e</span><span style="--i:9">r</span>
-                </div>
+                </span>
             </h1>
             <figure>
                 <a href="https://github.com/Zahjen/ToDoApp" target="_blank">
@@ -88,7 +89,7 @@
                 Description
             </h2>
             <p class="descriprion-projet-texte">
-                Cette application s'organise comme suit : On a tout d'abord un menu principal réunissant plusieurs groupes. Chacun de ces groupes nous mènent ensuite à un ensemble de tâches reparties dans différentes listes. On a également accès à une barre de navigation nous permettant de consulter les tâches complètes, incomplètes et celles dont la deadline se termine aujourd'hui.
+                Cette application se trouve être une application CRUD, et s'organise comme suit : On a tout d'abord un menu principal réunissant plusieurs groupes. Chacun de ces groupes nous mènent ensuite à un ensemble de tâches reparties dans différentes listes. On a également accès à une barre de navigation nous permettant de consulter les tâches complètes, incomplètes et celles dont la deadline se termine aujourd'hui. Comme on dit une image (ici une vidéo) vaut mieux que mille mots, vous trouverez <a href="../video/app-mob.mp4" target="_blank">juste ici</a> une petite video qui résume ce que l'on peut faire avec cette application.
             </p>
             <h2 class="h2-projet-individuel">
                 Technologies
@@ -112,10 +113,10 @@
             </h2>
             <div class="github-website">
                 <a href="https://github.com/Zahjen/ToDoApp" target="_blank">
-                    <div class="icon-ext icon-light-github"></div>
-                    <div>
+                    <span class="icon-ext icon-light-github"></span>
+                    <span>
                         Github
-                    </div>
+                    </span>
                 </a>
             </div>
         </article>
