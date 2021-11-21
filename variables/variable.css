@@ -1,0 +1,109 @@
+:root {
+    /* Couleurs */
+    --bleu-fonce: rgb(0, 0, 25);
+    --bleu-clair: rgb(33, 33, 58);
+    --bleu-ciel: rgb(163, 255, 240);
+    --golden-pink: #ecbba7;
+    --golden-pink-transparence: #ecbba760;
+    --blanc-casse: rgb(240, 240, 240);
+    --blanc: rgb(255, 255, 255);
+    --gris: rgba(255, 255, 255, 0.534);
+    --transparence: rgba(255, 255, 255, 0.2);
+
+    /* Temps */
+    --temps-sphere: 18s;
+
+    /* rotation */
+    --rotation-sphere-language-competences: 15deg;
+    --rotation-language-competences: 45deg;
+    --rotation-complete: 360deg;
+    
+    /* Grands écrans */
+        /* Width et Height */
+        --nav-width: 200px;
+        --logo-circle: 70px;
+        --nav-contact-link: 25px;
+        --ext-link-pres: 35px;
+
+        --slider-label-size: 15px;
+        --hexagon-height-slider: 300px;
+        --hexagon-width-slider: 400px;
+
+        --width-slider-about: 45vw;
+        --width-translate-about: -45vw;
+
+        --sphere-centre-competences-size: 50px;
+        --hauteur-sphere-langages-competences: 170px;
+        --largeur-sphere-langages-competences: 240px;
+        --sphere-position-10-competences: -10px;
+        --sphere-position-50-competences: -50px;
+        --sphere-position-70-competences: -70px;
+        --sphere-position-100-competences: -100px;
+
+        --exp-pro-card: 400px;
+
+        --interet-icon: 50px;
+
+        /* Padding et Margin */
+        --padding-lr-nav: 50px; 
+        --padding-lr-section: 70px;
+        --padding-tb-article: 50px;
+        --padding-lr-article-projet: 100px;
+        --padding-interet: 40px;
+
+        --titre-margin-bottom: 60px;
+
+        /* border et Border-radius */
+        --border-radius-button: 10px;
+        --border-radius-technologie: 5px;
+        --border-interet: var(--golden-pink) 3px solid;
+    
+    /* Tablette */
+        /* Width and height */
+        --burger-menu-top-right: 20px;
+        --burger-menu-circle: 45px;
+        --ext-link-pres-tablet: 30px;
+
+        --width-slider-about-tablet: 75vw;
+        --width-translate-about-tablet: -75vw;
+
+        /* Padding et Margin */
+        --titre-margin-bottom-tablet: 50px;
+        --padding-lr-article-projet-tablet: 70px;
+
+    /* Mobile */
+        /* Width and height */
+        --exp-pro-card-mobile: 290px;
+        --exp-pro-card-small-mobile: 230px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "Poppins", sans-serif;
+
+    text-align: justify;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    -webkit-hyphens: auto;
+        -ms-hyphens: auto;
+            hyphens: auto;
+    
+    scrollbar-width: thin;
+    scrollbar-color: var(--golden-pink-transparence);
+}
+
+*::-webkit-scrollbar {
+    width: 9px;
+    height: 9px;
+}
+*::-webkit-scrollbar-track {
+    border: 10px solid rgba(156, 156, 156, 0.24);
+    border-radius: 5px;
+}
+*::-webkit-scrollbar-thumb {
+    background-color: var(--golden-pink-transparence);
+    border-radius: 5px;
+}
