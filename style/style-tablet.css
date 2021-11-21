@@ -291,23 +291,23 @@ nav #nav-checkbox:checked ~ .nav-bar-container {
     align-items: center;
 }
 
-.contact-link-accueil a div {
+.contact-link-accueil a {
     height: var(--ext-link-pres-tablet);
     width: var(--ext-link-pres-tablet);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.contact-link-accueil a:nth-child(1) div {
+.contact-link-accueil a:nth-child(1) {
     background-image: url('../images/github-icon-light.svg');
 }
 
-.contact-link-accueil a:nth-child(2) div {
+.contact-link-accueil a:nth-child(2) {
     background-image: url('../images/linkedin-icon-light.svg');
     margin: 0 40px;
 }
 
-.contact-link-accueil a:nth-child(3) div {
+.contact-link-accueil a:nth-child(3) {
     background-image: url('../images/mail-icon-light.svg');
     width: 33px;
 }
@@ -1166,10 +1166,10 @@ nav #nav-checkbox:checked ~ .nav-bar-container {
         display: flex;
         justify-content: center;
         align-items: center;
-        color: white;
+        color: var(--blanc);
         background-color: var(--bleu-fonce);
         border-radius: 50%;
-        border: white solid 1px;
+        border: var(--blanc) solid 1px;
         font-size: 30px;
         transform: rotateZ(90deg);
         position: fixed;
