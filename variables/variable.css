@@ -94,6 +94,8 @@
     
     scrollbar-width: thin;
     scrollbar-color: var(--golden-pink-transparence);
+
+    scroll-behavior: smooth;
 }
 
 *::-webkit-scrollbar {
