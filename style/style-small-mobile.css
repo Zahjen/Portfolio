@@ -554,7 +554,6 @@ nav #nav-checkbox:checked ~ .nav-bar-container {
 /* -------------------------------- Animation relative aux langages qui tournent ---------------------------------------------- */
 
 .container-sphere {
-    /* centrer la sphere */
     min-height: 50%;
     width: 100%;
     display: flex;
@@ -564,7 +563,6 @@ nav #nav-checkbox:checked ~ .nav-bar-container {
 }
 
 .sphere-centre {
-    /* position absolute "permet" de centrer la sphere car on utilise le display flex sur container-sphere */
     position: absolute;
     height: 26px;
     width: 26px;
