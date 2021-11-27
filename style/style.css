@@ -520,7 +520,6 @@ nav .nav-links .part-link-page:hover {
 /* -------------------------------- Animation relative aux langages qui tournent ---------------------------------------------- */
 
 .container-sphere {
-    /* centrer la sphere */
     min-height: 50%;
     width: 100%;
     display: flex;
@@ -530,7 +529,6 @@ nav .nav-links .part-link-page:hover {
 }
 
 .sphere-centre {
-    /* position absolute "permet" de centrer la sphere car on utilise le display flex sur container-sphere */
     position: absolute;
     height: var(--sphere-centre-competences-size);
     width: var(--sphere-centre-competences-size);
